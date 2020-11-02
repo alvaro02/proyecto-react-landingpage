@@ -1,12 +1,12 @@
 import React from 'react'
-import { Carrousel } from './components/Carrousel';
+import Slider  from './components/Slider';
 import { Nav } from './components/Nav';
 
 const App = () => {
     return (
         <div>
             <Nav />
-            <Carrousel />
+            <Slider />
         </div>
     )
 }
