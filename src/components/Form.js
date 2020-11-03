@@ -2,8 +2,7 @@ import React from "react";
 
 export const Form = () => {
   return (
-    <div className="flex justify-center"> 
-      
+    <div className="flex justify-center">
       <form class="w-full max-w-lg">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -107,6 +106,14 @@ export const Form = () => {
               type="text"
               placeholder="90210"
             />
+          </div>
+          <div classname="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+          <button
+            className="flex justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            type="button"
+          >
+            Enviar
+          </button>
           </div>
         </div>
       </form>
